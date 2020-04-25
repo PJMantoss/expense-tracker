@@ -15,6 +15,8 @@ export const AddTransaction = () => {
             text,
             amount
         }
+
+        addTransaction(newTransaction);
     }
 
 //onSubmit={onSubmit}
