@@ -6,11 +6,13 @@ export const AddTransaction = () => {
             <h3>Add New Transaction</h3>
             <form onSubmit={onSubmit}>
                 <div className="form-control">
-                    <label>Text</label>
-                    <input />
+                    <label htmlFor="text">Text</label>
+                    <input type="text" value={text} onChange={} />
                 </div>
 
-                <div></div>
+                <div className="form-control">
+                    
+                </div>
 
                 <button></button>
             </form>
