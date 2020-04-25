@@ -18,7 +18,7 @@ export const AddTransaction = () => {
                         Amount <br/>
                         (negative - expense, positive - income)
                     </label>
-                    <input type="number" value={amount} onChange={} />
+                    <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} />
                 </div>
 
                 <button className="btn">Add Transaction</button>
