@@ -11,7 +11,11 @@ export const AddTransaction = () => {
                 </div>
 
                 <div className="form-control">
-                    
+                    <label htmlFor="amount">
+                        Amount <br/>
+                        (negative - expense, positive - income)
+                    </label>
+                    <input type="text" value={text} onChange={} />
                 </div>
 
                 <button></button>
